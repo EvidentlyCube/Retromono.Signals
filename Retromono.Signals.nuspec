@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Retromono.Signals</id>
+        <version>1.0.0</version>
+        <authors>Maurycy Zarzycki Retrocade.net</authors>
+        <owners>retrocadenet</owners>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A replacement for C#'s native events with additional capabilities: no need for null check, priorities, contextualizing listeners and adding no-param listeners to signals with params.</description>
+        <releaseNotes>Initial release</releaseNotes>
+        <copyright>Copyright 2017 Maurycy Zarzycki</copyright>
+        <tags>signal event monogame game</tags>
+    </metadata>
+    <files>
+        <file src="Retromono.Signals\bin\Release\Retromono.Signals.dll" target="lib\Retromono.Signals.dll" />
+        <file src="README.txt" target="README.txt" />
+    </files>
+</package>
